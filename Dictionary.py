@@ -22,8 +22,10 @@ for k, v in identity.items():
 
 print(str(identity.get('Name', 'DEFULT')))
 print(str(identity.get('Height', 'DEFULT')))
-"""
+
 # Add value
 print(identity.setdefault('Name', 'cosmos'))
 print(identity.setdefault('Height', '6.1'))
 print(identity)
+
+"""
